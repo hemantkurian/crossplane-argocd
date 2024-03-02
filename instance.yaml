@@ -1,7 +1,7 @@
 apiVersion: ec2.aws.crossplane.io/v1alpha1
 kind: Instance
 metadata:
-  name: web-server
+  name: web-server-argo
 spec:
   forProvider:
     region: us-east-1
