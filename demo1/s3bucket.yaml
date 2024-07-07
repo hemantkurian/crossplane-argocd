@@ -1,6 +1,8 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
+  labels:
+    app.kubernetes.io/instance: iactoaws
   name: crossplane-bucket-02071979
 spec:
   forProvider:
